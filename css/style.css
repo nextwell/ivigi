@@ -86,6 +86,40 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	margin-right: 15px;
 }
 
+.fa-suitcase{
+	background: -webkit-gradient(linear, left top, left bottom, from(#405DFF), to(#C224FF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+    -moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.fa-suitcase:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	cursor: pointer;
+}
+
+.fa-money{
+	background: -webkit-gradient(linear, left top, left bottom, from(#83AB38), to(#328A26));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+    -moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.fa-money:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	cursor: pointer;
+}
+
 .fa-odnoklassniki-square{
 	color: #F58220;
 	-webkit-transition: all 0.2s ease;
