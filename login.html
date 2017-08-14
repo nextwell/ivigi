@@ -11,6 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/script.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 	<div class="container main">
@@ -47,7 +48,8 @@
 					      	<input type="password" class="form-control" id="password" placeholder="Пароль" autofocus>
 					  	</div>
 					  	<div class="form-group centered">
-					  	  	<button type="button" class="btn btn-success">Войти</button>
+					  	  	<button type="button" class="btn btn-success" class="g-recaptcha"
+					  	  	data-sitekey="6LeEyiwUAAAAAKQPdQh02hME_-MYiYkMqJSAQL42" data-callback="re_check">Войти</button>
 					  	</div>
 					  	<p class="centered">или</p>
 					  	
