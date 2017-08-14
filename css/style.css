@@ -82,3 +82,29 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	margin-left: 15px;
 	margin-right: 15px;
 }
+
+.fa-odnoklassniki-square{
+	color: #F58220;
+	-webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.fa-vk{
+	color: #5E82A9;
+	-webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.fa-vk:hover{
+	-webkit-filter: brightness(80%);
+}
+
+.fa-odnoklassniki-square:hover{
+	-webkit-filter: brightness(80%);
+}
