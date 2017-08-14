@@ -1,11 +1,32 @@
-body{
+html,body{
+	height:100%;
 	margin: 0;
 	padding: 0;
 	background-color: #EDEEF0;
 }
 
+button:hover{
+	cursor: pointer;
+}
+.footer{
+	position: absolute;
+    bottom: 0;
+    width: 97%;
+}
+
+/* Настройки placeholder для input */
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+/* ------------------------------------------------------------- */
+
 .main{
 	background-color: #fff;
+	height:100%;
+	position: relative;
 }
 
 .named{
