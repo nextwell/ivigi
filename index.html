@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Ivigi</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.css">
@@ -16,11 +16,11 @@
 <body>
 	<div class="container main">
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-between align-items-center">
 			    <div class="col-md-3 named">
 			    	Ivigi
 			    </div>
-			    <div class="col-md-3 ml-auto">
+			    <div class="col col-md-3">
 			    	<a href="login.html">Вход</a>
 			    	или
 			    	<a href="#">Регистрация</a>
@@ -30,22 +30,22 @@
 		<hr>
 		<div class="container">
 			<h4 class="centered">
-				Что вы ищите? Может бананы?
+				Что вам необходимо?
 			</h4>
 			<br>
 		</div>
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-4 main-ctg">
+				<div class="col-lg-6 col-sm-6 main-ctg">
 					<a href="#">
-						<i class="fa fa-briefcase fa-5x" aria-hidden="true"></i>
-				        <h5> Работу</h5>
+						<i class="fa fa-suitcase fa-5x" aria-hidden="true"></i>
+				        <h5 class="h5">Разместить или найти <br> вакансию</h5>
 			        </a>
 			    </div>
-			    <div class="col-lg-4 main-ctg">
+			    <div class="col-lg-6 col-sm-6 main-ctg">
 			    	<a href="#">
 				    	<i class="fa fa-money fa-5x" aria-hidden="true"></i>
-				        <h5>Объявления о <br> купле/продаже</h5>
+				        <h5 class="h5">Подать или найти <br>объявление </h5>
 			        </a>
 			    </div>
 			</div>
@@ -53,77 +53,85 @@
 		</div>
 		<br> <br>
 		<div class="container">
-			<div class="row justify-content-start">
-				<div class="col-5">
+			<div class="row">
+				<div class="col align-self-center">
 					<h4 class="centered">
-						Поиск по региону
+						Поиск вакансий и объявлений <br> по региону
 					</h4>
 				</div>
 			</div>
 			<br>
 		</div>
 		<div class="container">
-			<div class="row justify-content-between">
-				<div class="row justify-content-start">
+				<div class="row justify-content-center">
 					<div class="col-md-6 col-sm-6 republics">
 						<a href="#">
-						    <img src="images/LNR.jpg" class="rep-img">
+						    <img src="images/lpr.png" class="rep-img">
 						    <h5 class="centered">ЛНР</h5>
 					    </a>
 				    </div>
+
+
 				    <div class="col-md-6 col-sm-6 republics">
 				    	<a href="#">
-					        <img src="images/DNR.png" class="rep-img">
+					        <img src="images/dpr.png" class="rep-img">
 					        <h5 class="centered">ДНР</h5>
 				        </a>
 				    </div>
 
 				</div>
-				<div class="row justify-content-end">
-					<div class="col-md-6 col-sm-6 city-list">
-						<a href="#">Луганск</a><br>
-						<a href="#">Алчевск<br>
-						<a href="#">Антрацит<br>
-						<a href="#">Антрацитовский район</a><br>
-						<a href="#">Брянка</a><br>
-						<a href="#">Кировск</a><br>
-						<a href="#">Краснодон</a><br>
-						<a href="#">Краснодонский район</a><br>
-						<a href="#">Красный Луч</a><br>
-						<a href="#">Первомайск</a><br>
-						<a href="#">Ровеньки</a><br>
-						<a href="#">Свердловск</a><br>
-						<a href="#">Свердловский район</a><br>
-						<a href="#">Стаханов</a><br>
-						<a href="#">Лутугинский район</a><br>
-						<a href="#">Перевальский район</a><br>
-						<a href="#">Попаснянский район</a><br>
-						<a href="#">Славяносербский район</a><br>
-						<a href="#">Станично-Луганский район</a><br>
+
+				<div class="row">
+						<div class="col-md-3 col-sm-6 city-list">
+							<a href="#">Луганск</a><br>
+							<a href="#">Алчевск<br>
+							<a href="#">Антрацит<br>
+							<a href="#">Антрацитовский район</a><br>
+							<a href="#">Брянка</a><br>
+							<a href="#">Кировск</a><br>
+							<a href="#">Краснодон</a><br>
+							<a href="#">Краснодонский район</a><br>
+							<a href="#">Красный Луч</a><br>
+						</div>
+						<div class="col-md-3 col-sm-6 city-list">
+							<a href="#">Первомайск</a><br>
+							<a href="#">Ровеньки</a><br>
+							<a href="#">Свердловск</a><br>
+							<a href="#">Свердловский район</a><br>
+							<a href="#">Стаханов</a><br>
+							<a href="#">Лутугинский район</a><br>
+							<a href="#">Перевальский район</a><br>
+							<a href="#">Попаснянский район</a><br>
+							<a href="#">Славяносербский район</a><br>
+							<a href="#">Станично-Луганский район</a><br>
+					    </div>
+					    <div class="col-md-3 col-sm-6 city-list">
+							<a href="#">Донецк</a><br>
+							<a href="#">Горловка</a><br>
+							<a href="#">Дебальцево</a><br>
+							<a href="#">Докучаевск</a><br>
+							<a href="#">Енакиево</a><br>
+							<a href="#">Ждановка</a><br>
+							<a href="#">Кировское</a><br>
+							<a href="#">Макеевка</a><br>
+							<a href="#">Снежное</a><br>
+						</div>
+						 <div class="col-md-3 col-sm-6 city-list">
+							<a href="#">Торез</a><br>
+							<a href="#">Харцызск</a><br>
+							<a href="#">Шахтёрск</a><br>
+							<a href="#">Ясиноватая</a><br>
+							<a href="#">Амвросиевский район</a><br>
+							<a href="#">Новоазовский район</a><br>
+							<a href="#">Старобешевский район</a><br>
+							<a href="#">Тельмановский район</a><br>
+							<a href="#">Шахтёрский район</a><br>
+					    </div>
+
 				    </div>
-				    <div class="col-md-6 col-sm-6 city-list">
-						<a href="#">Донецк</a><br>
-						<a href="#">Горловка</a><br>
-						<a href="#">Дебальцево</a><br>
-						<a href="#">Докучаевск</a><br>
-						<a href="#">Енакиево</a><br>
-						<a href="#">Ждановка</a><br>
-						<a href="#">Кировское</a><br>
-						<a href="#">Макеевка</a><br>
-						<a href="#">Снежное</a><br>
-						<a href="#">Торез</a><br>
-						<a href="#">Харцызск</a><br>
-						<a href="#">Шахтёрск</a><br>
-						<a href="#">Ясиноватая</a><br>
-						<a href="#">Амвросиевский район</a><br>
-						<a href="#">Новоазовский район</a><br>
-						<a href="#">Старобешевский район</a><br>
-						<a href="#">Тельмановский район</a><br>
-						<a href="#">Шахтёрский район</a><br>
-				    </div>
-				</div>
+
 			    
-			</div>
+			
 		</div>
 		<br>
 

@@ -1,8 +1,7 @@
 html,body{
-	height:100%;
 	margin: 0;
 	padding: 0;
-	background-color: #EDEEF0;
+	background-color: #fff;
 }
 
 button:hover{
@@ -40,11 +39,11 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .main-ctg{
 	text-align: center;
-	color: #838A95;
+	color: #838A95 ;
+
 }
 
 .main-ctg:hover{
-	color: #839CC5;
 	cursor: pointer;
 }
 
@@ -53,8 +52,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .rep-img{
-	width: 200px;
-	height: 133px;
+	max-width: 250px;
+	max-height: 200px;
 	margin-top: 20px;
 	display: block;
     margin: 20px auto; 
@@ -74,6 +73,10 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	text-decoration: none;
 }
 
+.republics a:hover{
+	color: black;
+}
+
 .city-list{
 	white-space: nowrap;
 }
@@ -91,6 +94,20 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
       -ms-transition: all 0.2s ease;
           transition: all 0.2s ease;
 }
+
+.fa-5x {
+	font-size: 13em !important;
+}
+.main-ctg a {
+	color: #838A95;
+}
+
+.main-ctg a:hover{
+	color: black;
+}
+
+
+
 
 .fa-vk{
 	color: #5E82A9;
