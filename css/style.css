@@ -33,12 +33,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	font-size: 2.5rem;
 }
 
-.logo {
-	max-width: 100px;
-	height: auto;
-}
-
-
 .centered{
 	text-align: center;
 	color: #838A95;
@@ -56,7 +50,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .rep-img{
 	max-width: 250px;
-	max-height: 184px;
+	max-height: 200px;
 	margin-top: 20px;
 	display: block;
     margin: 20px auto; 
@@ -77,6 +71,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .republics a:hover{
+	color: black;
 }
 
 .city-list{
@@ -139,6 +134,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .main-ctg a:hover{
+	color: black;
 }
 
 
