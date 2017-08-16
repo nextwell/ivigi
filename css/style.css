@@ -167,3 +167,15 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	-webkit-filter: brightness(80%);
 }
 
+/* Настройка для удаления внутренних отступов */
+
+.no-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+/* ------------------------------------------------------------- */
+
+.no-border-radius{
+	border-radius: 0;
+}
