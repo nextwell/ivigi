@@ -179,3 +179,37 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 .no-border-radius{
 	border-radius: 0;
 }
+
+
+/* Псевдо-элемент чекбокса */
+
+.hidden-checkbox { display: none; }
+
+.ps-checkbox::before {   
+    content: "\00A0";
+    display: inline-block;
+    box-sizing: border-box;
+    width: 17px; 
+    height: 17px;
+    background-color: white;
+    border: 1px solid #B0B0B0;
+    margin-right: 6px;
+    vertical-align: baseline;
+    
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #808080;
+}
+
+
+.checkbox-label:hover{
+	cursor: pointer;
+}
+
+.hidden-checkbox:checked + .ps-checkbox::before { content: "\2713"; }
+
+
+/* ------------------------------------------------------------- */
