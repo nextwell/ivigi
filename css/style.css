@@ -141,6 +141,12 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	color: black;
 }
 
+@media screen and (max-width: 575px) {
+    .sm_width {
+    width:100%;
+    }
+}
+
 
 
 
@@ -160,3 +166,4 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 .fa-odnoklassniki-square:hover{
 	-webkit-filter: brightness(80%);
 }
+
