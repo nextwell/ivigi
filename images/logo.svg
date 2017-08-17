@@ -1,1 +1,5 @@
-<svg  id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 75.9"><defs><style>.cls-1{font-size:72px;font-family:Infinity, Infinity;}.cls-2{fill:#903aff;}.cls-3{fill:#45922a;}.cls-4{fill:#dd2e2d;}</style></defs><title>logo</title><text class="cls-1" transform="translate(2.45 61.21)">ivigi</text><path d="M-8.5,0" transform="translate(-2 1.47)"/><circle class="cls-2" cx="6.5" cy="9.97" r="6.5"/><circle class="cls-3" cx="46.8" cy="9.97" r="6.5"/><circle class="cls-4" cx="86.8" cy="10.97" r="6.5"/></svg>
+<svg  id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94 75.9"><defs><style>@font-face {
+	font-family: Infinity; /* Гарнитура шрифта */
+    src: url(../fonts/Infinity.ttf); /* Для IE5-8 */
+    src: local(Infinity), url(../fonts/Infinity.ttf); /* Для остальных браузеров */
+}.cls-1{font-size:72px;font-family:Infinity, Infinity;}.cls-2{fill:#903aff;}.cls-3{fill:#45922a;}.cls-4{fill:#dd2e2d;}</style></defs><title>logo</title><text class="cls-1" transform="translate(2.45 61.21)">ivigi</text><path d="M-8.5,0" transform="translate(-2 1.47)"/><circle class="cls-2" cx="6.5" cy="9.97" r="6.5"/><circle class="cls-3" cx="46.8" cy="9.97" r="6.5"/><circle class="cls-4" cx="86.8" cy="10.97" r="6.5"/></svg>
