@@ -16,8 +16,8 @@ button:hover{
 
 @font-face {
 	font-family: Infinity; /* Гарнитура шрифта */
-    src: url(fonts/Infinity.ttf); /* Для IE5-8 */
-    src: local(Infinity), url(fonts/Infinity.ttf); /* Для остальных браузеров */
+    src: url(../fonts/Infinity.ttf); /* Для IE5-8 */
+    src: local(Infinity), url(../fonts/Infinity.ttf); /* Для остальных браузеров */
    }
 
 /* Настройки placeholder для input */
