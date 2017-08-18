@@ -197,9 +197,16 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .no-margin {
-	margin-bottom: 0 !important;
+	margin: 0 !important;
 }
 
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
 
 /* ------------------------------------------------------------- */
 
@@ -250,7 +257,7 @@ form {
 	background-color: #FFF;
 	margin-bottom: 5px;
 	min-height: 120px;
-	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .offer__img {
@@ -262,7 +269,6 @@ form {
 	max-height:120px;
     max-width: 185px; 
     align-self:center;
-
 }
 
 .offer__head {
@@ -289,9 +295,11 @@ form {
  }
 
  .offer__head__price {
- 	font-size: 20px;
+ 	font-size: 22px;
  	float: right;
- 	font-weight: bold;
+ 	font-weight: 600;
+ 	color: #3F4C52;
+
  }
 
  .offer__data__category {
@@ -302,6 +310,10 @@ form {
  .offer__data__posttime {
  	font-size: 13px;
  	color: #838A95;
+ 	padding-bottom: 5px;
  }
 /* --------------------------------------------------------------*/
 
+.advertising {
+	min-height: 120px;
+	border: 1px solid #000;
