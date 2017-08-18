@@ -200,7 +200,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	margin: 0 !important;
 }
 
-.float-right {
+.flofferoat-right {
 	float: right;
 }
 
@@ -258,6 +258,7 @@ form {
 	margin-bottom: 5px;
 	min-height: 120px;
 	border-bottom: 1px solid #e5e5e5;
+	margin-top: 7px;
 }
 
 .offer__img {
