@@ -23,6 +23,24 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 /* ------------------------------------------------------------- */
 
+/* clearfix  */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* ------------------------------------------------------------- */
+
 .main{
 	background-color: #fff;
 	height:100%;
@@ -171,11 +189,15 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	-webkit-filter: brightness(80%);
 }
 
-/* Настройка для удаления внутренних отступов */
+/* Настройка для удаления внутренних И внешних отступов */
 
 .no-padding {
     padding-right: 0 !important;
     padding-left: 0 !important;
+}
+
+.no-margin {
+	margin-bottom: 0 !important;
 }
 
 
@@ -216,11 +238,70 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .hidden-checkbox:checked + .ps-checkbox::before { content: "\2713"; }
 
+form {
+	margin-bottom: 50px;
+}
 
 /* ------------------------------------------------------------- */
 
-/* прибитие футера */
+/* Карточка Offer */
 
+.offer {
+	background-color: #FFF;
+	margin-bottom: 5px;
+	min-height: 120px;
+	border-top: 1px solid #e5e5e5;
+}
 
+.offer__img {
+	display: flex;
+    justify-content: center;
+}
 
+.offer__img img {
+	max-height:120px;
+    max-width: 185px; 
+    align-self:center;
+
+}
+
+.offer__head {
+	min-height: 58px;
+    line-height: 22px;
+}
+
+.offer__head__link {
+}
+
+.offer__head__link__title {
+	color: #838A95;
+    font-size: 20px;
+    float: left;
+    max-width: 620px;
+ }
+
+ .offer__head__link__title:hover {
+	color: #45922a;
+ }
+
+ .offer__head__link:hover {
+ 	text-decoration: none;
+ }
+
+ .offer__head__price {
+ 	font-size: 20px;
+ 	float: right;
+ 	font-weight: bold;
+ }
+
+ .offer__data__category {
+ 	font-size: 13px;
+ 	color: #838A95;
+ }
+
+ .offer__data__posttime {
+ 	font-size: 13px;
+ 	color: #838A95;
+ }
 /* --------------------------------------------------------------*/
+
