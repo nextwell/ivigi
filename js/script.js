@@ -7,7 +7,7 @@ $(document).ready(function(){
 	        var wh = $(window).height(); 
 	        var сh = wh - hh - fh - 32; 
 	        $('.middle').css('min-height', сh); 
-	    });
+	});
 	$(window).resize(function(){
 	  $(function(){
 	        var hh = $('.header_n').height();
@@ -16,8 +16,18 @@ $(document).ready(function(){
 	        var сh = wh - hh - fh - 32; 
 	        $('.middle').css('min-height', сh); 
 	    });
+
+
 	});
 	
+	$(function(){
+		if($(window).width() <= 767) {
+			$('.offer__img__src').addClass( "offer__img__sm" );
+		}
+
+	});
+
+
 	 
 	
 })
