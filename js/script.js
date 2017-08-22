@@ -19,15 +19,4 @@ $(document).ready(function(){
 
 
 	});
-	
-	$(function(){
-		if($(window).width() <= 767) {
-			$('.offer__img__src').addClass( "offer__img__sm" );
-		}
-
-	});
-
-
-	 
-	
 })
