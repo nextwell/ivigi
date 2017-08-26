@@ -506,4 +506,40 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 /* ---------------------------------------------------------------- */
+
+/* Страница добавления объявлений */
+.new_ad-margin {
+	margin-bottom: 20px;
+}
+
+.new_ad__title {
+	font-size: 22px;
+    color: #3F4C52;
+}
+
+.new_ad__label {
+	font-size: 15px;
+}
+
+.new_ad__name__text {
+	padding-right: 0;
+}
+
+.new_ad__name__text-sign {
+	font-size: 13px;
+	color:#838A95;;
+}
+
+@media screen and (max-width: 767px) {
+	.new_ad__label {
+		text-align: left !important;
+		padding-left: 15px !important;
+	}
+	.form-control {
+		width: 100% !important;
+	}
+}
+
+
+/* ---------------------------------------------------------------- */
 /* ---------------------------------------------------------------- */
