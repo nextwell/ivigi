@@ -8,5 +8,14 @@ $(document).ready(function(){
 			 $(this).attr('rows', rows);
 		}
 	}); */
+
+	$('#enterbut').click(function( e ) {
+       
+       e.preventDefault(); // отменяем стандартное поведение
+
+       /* код появления
+       $("#enterblock").show();
+       */
+   });
 })
 	
