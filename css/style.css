@@ -540,6 +540,37 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	}
 }
 
+.test {
+	height: 100px;
+	background-color: #fff;
+	border: 1px solid #007bff;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 20px;
+	-webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+}
+
+.test i {
+	color: #007bff;
+	line-height: 95px;
+}
+
+.test:hover {
+	cursor: pointer;
+	color: #fff;
+	font-size: 25px
+}
+
+.display_none {
+	display: none;
+}
+
 
 /* ---------------------------------------------------------------- */
 /* ---------------------------------------------------------------- */
