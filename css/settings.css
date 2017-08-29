@@ -43,6 +43,22 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1199px) {
+    .ff_r {
+        right: -5px !important;
+    }
+
+    .ff_l {
+        left: 12px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ff_r {
+        right: 11px !important;
+    }
+}
+
 
 
 
