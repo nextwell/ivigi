@@ -1,0 +1,45 @@
+.settings-photo{
+	display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative; 
+}
+
+.settings-photo img{
+	display: block;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+   
+}
+
+.settings-messages-empty{
+    font-size: 13px;
+    color: #838A95;
+}
+
+.add-sm-cards-icon-remove{
+    right: 4px;
+    color: #dd2e2d;
+    position: absolute;
+}
+
+.add-sm-cards-icon-edit{
+    left: 4px;
+    position: absolute;
+    color: #007bff;
+}
+
+
+.add-sm-cards-icon:hover{
+    -webkit-filter: brightness(80%);
+    cursor: pointer;
+}
+
+
+
+
