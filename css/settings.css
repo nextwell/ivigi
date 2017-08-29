@@ -23,20 +23,23 @@
 }
 
 .add-sm-cards-icon-remove{
-    right: 4px;
-    color: #dd2e2d;
+    right: 5px;
+    top: -1px;
     position: absolute;
 }
 
 .add-sm-cards-icon-edit{
-    left: 4px;
+    left: 5.5px;
     position: absolute;
-    color: #007bff;
+}
+.add-sm-cards-icon{
+    color: #838A95;
+    line-height: 30px !important;
+
 }
 
-
 .add-sm-cards-icon:hover{
-    -webkit-filter: brightness(80%);
+    color: #000;
     cursor: pointer;
 }
 

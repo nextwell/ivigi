@@ -77,6 +77,25 @@
 	margin-bottom: 20px;
 }
 
+.ff {
+    top: -5px;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    text-align: center;
+}
+
+.ff_r {
+    right: 19px;
+}
+
+.ff_l {
+    left: 5px;
+}
+
 
 /* ---------------- ПОД ВОПРОСОМ, ЗУМ КАРТИНКИ -------------------- */
 

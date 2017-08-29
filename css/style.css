@@ -18,6 +18,9 @@ html,body{
   flex: 0 0 auto;
 }
 
+textarea {
+	resize: none;
+}
 /* ---------------------- */
 
 button:hover{
@@ -567,9 +570,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	font-size: 25px
 }
 
-.display_none {
-	display: none;
-}
+
 
 
 /* ---------------------------------------------------------------- */
