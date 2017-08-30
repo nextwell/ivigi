@@ -246,7 +246,6 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .offer__img {
-	height: 100%;
 	width: 100%;
 	display: flex;
     justify-content: center;
@@ -569,6 +568,48 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	color: #fff;
 	font-size: 25px
 }
+/* карточки "похожие предложения" */
+.similar_offer {
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+.similar_offer__img {
+	border: 1px solid #d3d3d3;
+    
+ }
+
+.similar_offer__img__src {
+	max-height:107px;
+    max-width: 140px; 
+     z-index: 100;
+}
+
+.similar_offer__link__title {
+	font-size: 13px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.similar_offer__data {
+	font-size: 13px;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.similar_offer__price {
+	font-weight: 600;
+}
+
+
+.similar_offer__link {
+	
+}
+/* ---------------------------------------------------------------- */
 
 
 
