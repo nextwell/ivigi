@@ -221,12 +221,24 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     line-height: 16px;
     font-weight: bold;
     color: #808080;
+
 }
 
 
 .checkbox-label:hover{
 	cursor: pointer;
 }
+
+@media screen and (max-width: 992px) {
+	.login-items{
+		text-align: center;
+	}
+}
+
+.login-items{
+	color: #838A95;
+}
+
 
 .hidden-checkbox:checked + .ps-checkbox::before { content: "\2713"; }
 
