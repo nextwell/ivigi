@@ -587,14 +587,49 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 }
 
 .similar_offer__img {
-	border: 1px solid #d3d3d3;
+	border: 1px solid #838A95;
+	width: 100%;
+	display: table;
     
  }
 
 .similar_offer__img__src {
 	max-height:107px;
-    max-width: 170px;
+    max-width: 168px;
     z-index: 100;
+}
+
+.similar_offer__img_link {
+    height: 109px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background: center no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+	.similar_offer__img__src {
+	    max-width: 137.98px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.similar_offer__img__src {
+	    max-width: 156px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.similar_offer__img__src {
+	    max-width: 153px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.similar_offer__img__src {
+	    max-width: 128px;
+	}
 }
 
 .similar_offer__link__title {
