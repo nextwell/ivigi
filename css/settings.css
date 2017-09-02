@@ -70,7 +70,7 @@
     }
 }
 
-@media screen and ( max-width: 576px ){
+@media screen and ( max-width: 575px ){
     .ff_r{
         right: 10px !important;
     }
@@ -97,3 +97,34 @@
 
 
 
+.messages-image{
+    width: 108.75px !important;
+    height: 108.75px !important;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.message-description{
+    text-align: center;
+}
+
+.message-content{
+    margin-top: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    text-decoration: none;
+}
+
+.message-unreaded{
+    border-bottom: 2px solid #dd2e2d;
+}
+
+.message-content:hover{
+    border-bottom: 5px solid #dd2e2d;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.fa-exclamation{
+   color: #dd2e2d; 
+}
