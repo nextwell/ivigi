@@ -593,8 +593,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .similar_offer__img__src {
 	max-height:107px;
-    max-width: 170px; 
-     z-index: 100;
+    max-width: 170px;
+    z-index: 100;
 }
 
 .similar_offer__link__title {
@@ -624,6 +624,123 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 /* ---------------------------------------------------------------- */
 
 
+/* ---------------------------------------------------------------- */
+
+/* Страница профиля пользователя */
+
+.profile-img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.profile{
+	margin-top: 50px;
+}
+
+.profile-description{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.profile-date{
+	font-size: 0.9rem;
+    color: #838A95;
+}
+
+.profile-count{
+	font-size: 0.9rem;
+    color: #838A95;
+}
+
+.profile-address{
+	margin-bottom: 10px;
+}
+
+.profile-adds-description a{
+	font-size: 0.9rem;
+}
+
+.profile-adds-description span{
+	font-size: 0.9rem;
+	color: #838A95;
+}
+
+@media screen and (max-width: 767px) {
+    .profile-adds-description {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+
+.profile-adds-content{
+	margin-top: 20px;
+}
+
+.adds-sm-cards-img{
+	display: block;
+    width: 141px;
+    height: 106px;
+    overflow: hidden;
+    position: relative; 
+}
+
+.adds-sm-cards-img img{
+	display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+   
+}
+
+.adds-sm-cards-date{
+	font-size: 0.8rem;
+	color: #838A95;
+}
+
+.adds-sm-cards{
+	margin-bottom: 20px;
+}
+
+.ff {
+    top: -5px;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    text-align: center;
+}
+
+.ff_r {
+    right: 40px;
+}
+
+.ff_l {
+    left: 5px;
+}
+
+
+/* ---------------- ПОД ВОПРОСОМ, ЗУМ КАРТИНКИ -------------------- */
+
+@media screen and (max-width: 575px) {
+    .adds-sm-cards {
+        text-align: center;
+    }
+    .adds-sm-cards-img{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* -------------------------????----------------------------------- */
+/* -------------------------????----------------------------------- */
 
 
 /* ---------------------------------------------------------------- */

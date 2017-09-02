@@ -43,9 +43,10 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1199px) {
+/* Подстраивать элементы под картинки, каеф, менюшки для карточек */
+@media screen and (max-width: 1199px) and (min-width: 991px) {
     .ff_r {
-        right: -5px !important;
+        right: 28px !important;
     }
 
     .ff_l {
@@ -57,9 +58,39 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 576px) {
     .ff_r {
-        right: 11px !important;
+        right: 90px !important;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px){
+    .ff_r {
+        right: 65px !important;
+    }
+}
+
+@media screen and ( max-width: 576px ){
+    .ff_r{
+        right: 10px !important;
+    }
+}
+
+
+/* ------------------------------------------- */
+
+@media screen and ( max-width: 991px){
+    .settings-menu{
+        margin-bottom: 20px;
+    }
+    .settings-menu{
+        text-align: center;
+    }
+    .settings-description{
+        text-align: center;
+    }
+    .settings-messages-empty{
+        text-align: center;
     }
 }
 
