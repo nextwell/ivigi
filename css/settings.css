@@ -97,7 +97,7 @@
 
 
 
-.messages-image{
+ .messages-image{
     width: 108.75px !important;
     height: 108.75px !important;
     border-radius: 50%;
@@ -127,4 +127,42 @@
 
 .fa-exclamation{
    color: #dd2e2d; 
+} 
+
+/* Страница чатиков */
+
+.dialog {
+    padding: 10px 0px 10px 0px;
+    border: 1px solid #fff;
 }
+
+.dailog-image-link{
+
+}
+
+.dailog-image {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.dailog__addname {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.dailog__username, .dailog__addname {
+    color: #000;
+}
+
+.dialog-link:hover {
+    text-decoration: none;
+}
+
+.dialog:hover {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+/* --------------------*/
