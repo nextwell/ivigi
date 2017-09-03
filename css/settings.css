@@ -161,8 +161,115 @@
     text-decoration: none;
 }
 
-.dialog:hover {
+.dialog:hover, .border_n {
     border: 1px solid rgba(0,0,0,.1);
+}
+
+.dialogues {
+    border: 1px solid rgba(0,0,0,.1);
+    /* height: 720px !important; */
+    height: 74.5vh;
+    overflow: auto;
+}
+
+.messages {
+    height: 95px;
+    overflow: auto;
+}
+
+.messages-form {
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.messages-form-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.messages {
+    flex: 1 0 auto;
+}
+.messages-sender {
+    flex: 0 0 auto;
+}
+
+.message {
+    margin-bottom: 5px;
+}
+
+.msg-btn, .msg-inp {
+    background-color: #fff;
+    color: #903aff;
+    border-color: #903aff;
+}
+
+.msg-btn:hover {
+    background-color: #903aff;
+    color: #fff;
+    border-color: #903aff;
+}
+
+.round-image {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.message-image {
+    max-height: 100px;
+    max-width: 100%;
+}
+
+/* объявление собеседника */
+
+.recipient_offer {
+    margin-bottom: 20px;
+}
+
+.recipient_offer__img {
+    width: 100%;
+    display: table;
+}
+
+.recipient_offer__img_link {
+    height: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.recipient_offer__img__src {
+    max-height: 150px;
+    max-width: 100%;
+}
+
+.recipient_offer__title {
+    font-size: 20px;
+}
+
+/* --------------------*/
+
+/* scrollbar */
+
+.dialogues::-webkit-scrollbar-track, .messages::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.dialogues::-webkit-scrollbar, .messages::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.dialogues::-webkit-scrollbar-thumb, .messages::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
 }
 
 /* --------------------*/
